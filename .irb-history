@@ -1,0 +1,6 @@
+user = FactoryBot.create(:user)
+exit
+user = FactoryBot.create(:user)
+article= Blorgh::Article.create(title: "Blog title", text: "Blog text", user_id: 1)
+article.user
+exit
