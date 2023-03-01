@@ -3,13 +3,12 @@
 # collection of domain objects
 module Blorgh
   class User < Struct.new(:id, :name, :active)
-    # business logic goes here
     def foo(n, m)
       case n
       when 0
-        case m  # Noncompliant; nested case
-        when 0 then puts "0"
-          # ...
+        case m
+        when 0
+          puts "0"
         else
           puts "default"
         end
