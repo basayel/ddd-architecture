@@ -10,6 +10,8 @@ module Blorgh
         case m  # Noncompliant; nested case
         when 0 then puts "0"
           # ...
+        else
+          puts "default"
         end
       when 1 then puts "1"
       else puts "2"
