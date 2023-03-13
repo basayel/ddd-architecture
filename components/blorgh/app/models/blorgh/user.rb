@@ -9,8 +9,6 @@ module Blorgh
         case m
         when 0
           puts "0"
-        else
-          puts "default"
         end
       when 1 then puts "1"
       else puts "2"
