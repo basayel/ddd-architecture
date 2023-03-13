@@ -14,13 +14,5 @@ module Blorgh
       else puts "2"
       end
     end
-
-    def test(x)
-      if x == 0
-        doSomething
-      elsif x == 1
-        doSomethingElse
-      end
-    end
   end
 end
